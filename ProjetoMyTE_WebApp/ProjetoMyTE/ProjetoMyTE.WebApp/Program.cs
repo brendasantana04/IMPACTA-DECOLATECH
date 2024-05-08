@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetoMyTE.WebApp.Models.Contexts;
 using ProjetoMyTE.WebApp.Models.Startup;
+using ProjetoMyTE.WebApp.Services;
 
 internal class Program
 {
@@ -13,6 +14,10 @@ internal class Program
 
         builder.Services.AddDbContext<MyRhContext>(options =>
                     options.UseSqlServer(config.GetConnectionString("MyRhConnection")));
+
+        //adicionando servicos das models
+        builder.Services.AddScoped<AreasService>();
+        builder.Services.AddScoped<CargosService>();
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
@@ -32,7 +37,7 @@ internal class Program
         {
             app.UseExceptionHandler("/Home/Error");
         }
-        app.UseStaticFiles();
+        app.UseStaticFiles(); 
 
         app.UseRouting();
 

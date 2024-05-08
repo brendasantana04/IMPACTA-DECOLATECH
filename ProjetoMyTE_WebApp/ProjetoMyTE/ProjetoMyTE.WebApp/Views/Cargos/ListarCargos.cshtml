@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ProjetoMyTE.WebApp.Models.Entities.Cargo>
+
+@{
+    ViewData["Title"] = "Listar Cargos";
+}
+
+<h1>Lista de Cargos</h1>
+
+<p>
+    <a asp-action="AdicionarCargo">Criar Novo Cargo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DESCRICAO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_AREA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SALARIO)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DESCRICAO)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID_AREA)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SALARIO)
+                    </td>
+                    <td>
+                        <a asp-action="AlterarCargo" asp-route-id="@item.ID">Alterar</a>
+                        <a asp-action="RemoverCargo" asp-route-id="@item.ID">Remover</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

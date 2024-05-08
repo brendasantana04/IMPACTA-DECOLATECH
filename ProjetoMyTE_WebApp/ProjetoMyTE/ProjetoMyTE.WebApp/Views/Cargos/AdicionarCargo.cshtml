@@ -1,0 +1,52 @@
+﻿@model ProjetoMyTE.WebApp.Models.Entities.Cargo
+
+@{
+    ViewData["Title"] = "Adicionar Cargo";
+}
+
+<h1>Adicionar Cargos</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AdicionarCargo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID_AREA" class="control-label"></label>
+                <select asp-for="ID_AREA"
+                        asp-items="(SelectList)ViewBag.ListaDeAreas"
+                        class="form-select">
+
+                    <option value="0">Selecione a Área</option>
+                </select>
+                <span asp-validation-for="ID_AREA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_AREA" class="control-label"></label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DESCRICAO" class="control-label"></label>
+                <input asp-for="DESCRICAO" class="form-control" />
+                <span asp-validation-for="DESCRICAO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_AREA" class="control-label"></label>
+                <input asp-for="ID_AREA" class="form-control" />
+                <span asp-validation-for="ID_AREA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SALARIO" class="control-label"></label>
+                <input asp-for="SALARIO" class="form-control" />
+                <span asp-validation-for="SALARIO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Home">Voltar para a lista de Cargos</a>
+</div>
+
