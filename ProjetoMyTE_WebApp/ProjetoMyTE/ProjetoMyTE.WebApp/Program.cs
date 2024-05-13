@@ -12,12 +12,13 @@ internal class Program
         //configuration manager
         ConfigurationManager config = builder.Configuration;
 
-        builder.Services.AddDbContext<MyRhContext>(options =>
-                    options.UseSqlServer(config.GetConnectionString("MyRhConnection")));
+        builder.Services.AddDbContext<MyTEContext>(options =>
+                    options.UseSqlServer(config.GetConnectionString("MyTEConnection")));
 
         //adicionando servicos das models
         builder.Services.AddScoped<AreasService>();
         builder.Services.AddScoped<CargosService>();
+        builder.Services.AddScoped<WBSService>();
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
@@ -27,7 +28,7 @@ internal class Program
         //adicionando servicos pro 
         var scope = app.Services.CreateScope();
         var services = scope.ServiceProvider;
-        var context = services.GetRequiredService<MyRhContext>(); //momento em que myrhcontext é instanciado
+        var context = services.GetRequiredService<MyTEContext>(); //momento em que myrhcontext é instanciado
 
         //sincronizando com banco de dados
         DbInitializer.Initialize(context);

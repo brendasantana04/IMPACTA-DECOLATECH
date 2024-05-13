@@ -4,7 +4,7 @@ namespace ProjetoMyTE.WebApp.Models.Startup
 {
     public class DbInitializer
     {
-        public static void Initialize(MyRhContext context)
+        public static void Initialize(MyTEContext context)
         {
             context.Database.EnsureCreated();
         }

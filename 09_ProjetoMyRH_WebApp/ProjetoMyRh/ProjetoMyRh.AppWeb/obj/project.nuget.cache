@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GfRGbvXKpoZ8qacpRWVzVUAfd0HQCjI0D0Cfng71d3yZFy2ULPKuGBrdT8J6TBS6EDAZemv7N5wG3CZKzYWUkw==",
+  "dgSpecHash": "5lzHfJsZJ6kWkqNpmAdiO7IUt2gboyYVkToi9P7Lml0vfpC8iV7+vSO5xczgeeSVwU6iCUxPA08fVUAkyPqhkA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj",
+  "projectFilePath": "C:\\Users\\b.santana.santos\\Documents\\Projetos\\DecolaTech\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\b.santana.santos\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\b.santana.santos\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

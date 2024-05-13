@@ -42,8 +42,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNBdHVhY2FvXFJlbW92ZXJBcmVhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/AreasAtuacao/RemoverWBS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNBdHVhY2FvXFJlbW92ZXJXQlMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Cargos/AdicionarCargo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXEFkaWNpb25hckNhcmdvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Cargos/AlterarCargo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXEFsdGVyYXJDYXJnby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Cargos/Index.cshtml]
@@ -52,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Cargos/ListarCargos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXExpc3RhckNhcmdvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Cargos/RemoverCargo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXFJlbW92ZXJDYXJnby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Home/Index.cshtml]
@@ -72,6 +84,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/WBS/AlterarWBS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV0JTXEFsdGVyYXJXQlMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/WBS/IncluirWBS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV0JTXEluY2x1aXJXQlMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/WBS/ListarWBS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV0JTXExpc3RhcldCUy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/_ViewImports.cshtml]

@@ -1,0 +1,16 @@
+﻿@model ProjetoMyTE.WebApp.Models.Entities.Cargo
+
+@{
+    ViewData["Title"] = "Remover Cargo";
+}
+
+<h1>Remover Cargo</h1>
+
+<h3>Você tem certeza que quer remover esse cargo?</h3>
+<div>
+    <hr />
+    <form asp-action="RemoverCargo">
+        <input type="submit" value="Sim, remover cargo" class="btn btn-danger" />
+        <a asp-action="ListarCargos">Não, voltar para a lista de cargos</a>
+    </form>
+</div>

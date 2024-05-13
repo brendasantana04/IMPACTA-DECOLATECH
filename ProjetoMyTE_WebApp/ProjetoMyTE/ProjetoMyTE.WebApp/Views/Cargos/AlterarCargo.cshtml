@@ -1,0 +1,40 @@
+﻿@model ProjetoMyTE.WebApp.Models.Entities.Cargo
+
+@{
+    ViewData["Title"] = "Alterar Cargo";
+}
+
+<h1>Alterar Cargo</h1>
+
+<h4>Cargo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AlterarCargo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DESCRICAO" class="control-label"></label>
+                <input asp-for="DESCRICAO" class="form-control" />
+                <span asp-validation-for="DESCRICAO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AreaId" class="control-label"></label>
+                <input asp-for="AreaId" class="form-control" />
+                <span asp-validation-for="AreaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SALARIO" class="control-label"></label>
+                <input asp-for="SALARIO" class="form-control" />
+                <span asp-validation-for="SALARIO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar Alterações" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListarCargos">Voltar para a Lista de Cargos</a>
+</div>
+

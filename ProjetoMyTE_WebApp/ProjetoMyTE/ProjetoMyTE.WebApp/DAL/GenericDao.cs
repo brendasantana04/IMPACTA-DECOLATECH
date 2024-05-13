@@ -6,10 +6,10 @@ namespace ProjetoMyTE.WebApp.DAL
     //paramentrização com classes
     public class GenericDao<T> where T : class
     {
-        public MyRhContext Context { get; set; }
+        public MyTEContext Context { get; set; }
 
         //construtor
-        public GenericDao(MyRhContext context)
+        public GenericDao(MyTEContext context)
         {
             this.Context = context;
         }

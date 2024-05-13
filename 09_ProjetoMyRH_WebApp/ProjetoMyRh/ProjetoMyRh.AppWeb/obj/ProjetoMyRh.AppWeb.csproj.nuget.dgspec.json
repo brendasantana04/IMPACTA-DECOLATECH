@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj": {}
+    "C:\\Users\\b.santana.santos\\Documents\\Projetos\\DecolaTech\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj": {
+    "C:\\Users\\b.santana.santos\\Documents\\Projetos\\DecolaTech\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj",
+        "projectUniqueName": "C:\\Users\\b.santana.santos\\Documents\\Projetos\\DecolaTech\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj",
         "projectName": "ProjetoMyRh.AppWeb",
-        "projectPath": "C:\\Projetos\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj",
+        "projectPath": "C:\\Users\\b.santana.santos\\Documents\\Projetos\\DecolaTech\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\ProjetoMyRh.AppWeb.csproj",
         "packagesPath": "C:\\Users\\b.santana.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\obj\\",
+        "outputPath": "C:\\Users\\b.santana.santos\\Documents\\Projetos\\DecolaTech\\09_ProjetoMyRH_WebApp\\ProjetoMyRh\\ProjetoMyRh.AppWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

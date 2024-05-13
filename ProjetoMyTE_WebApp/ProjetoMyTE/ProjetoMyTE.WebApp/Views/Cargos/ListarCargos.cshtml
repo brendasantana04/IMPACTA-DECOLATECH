@@ -7,7 +7,7 @@
 <h1>Lista de Cargos</h1>
 
 <p>
-    <a asp-action="AdicionarCargo">Criar Novo Cargo</a>
+    <a asp-action="AdicionarCargo" class="btn btn-primary">Criar Novo Cargo</a>
 </p>
 <table class="table">
     <thead>
@@ -19,7 +19,7 @@
                 @Html.DisplayNameFor(model => model.DESCRICAO)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ID_AREA)
+                @Html.DisplayNameFor(model => model.AreaId)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.SALARIO)
@@ -37,7 +37,7 @@
                         @Html.DisplayFor(modelItem => item.DESCRICAO)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.ID_AREA)
+                        @Html.DisplayFor(modelItem => item.AreaId)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.SALARIO)

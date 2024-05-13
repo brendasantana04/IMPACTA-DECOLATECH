@@ -9,7 +9,7 @@ namespace ProjetoMyTE.WebApp.Services
         GenericDao<Cargo> CargosDao {  get; set; }
 
         //controller do cargos
-        public CargosService(MyRhContext context)
+        public CargosService(MyTEContext context)
         {
             this.CargosDao = new GenericDao<Cargo>(context);
         }
@@ -23,10 +23,25 @@ namespace ProjetoMyTE.WebApp.Services
         {
             if (idArea > 0)
             {
-                return CargosDao.Listar().Where(c => c.ID_AREA == idArea);
+                return CargosDao.Listar().Where(c => c.AreaId == idArea);
             }
             return CargosDao.Listar();
         }
+        public Cargo? Buscar(int id)
+        {
+            return CargosDao.Buscar(id);
+        }
+
+        public void Alterar(Cargo cargo)
+        {
+            CargosDao.Alterar(cargo);
+        }
+
+        public void Remover(Cargo cargo)
+        {
+            CargosDao.Remover(cargo);
+        }
+
 
     }
 }

@@ -33,9 +33,9 @@ namespace ProjetoMyTE.WebApp.Controllers
         {
             try
             {
-                if (cargo.ID_AREA == 0)
+                if (cargo.AreaId == 0)
                 {
-                    ModelState.AddModelError("Id_Area", "Nenhuma área foi selecionada");
+                    ModelState.AddModelError("AreaID", "Nenhuma área foi selecionada");
                 }
 
                 if (!ModelState.IsValid)
@@ -53,19 +53,96 @@ namespace ProjetoMyTE.WebApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult ListarCargos(int ID_AREA)
+        public IActionResult ListarCargos(int AreaID)
         {
             //parametro id se refere ao id da area
             try
             {
                 ViewBag.ListaDeAreas = new SelectList(areasService.Listar(), "Id", "Descricao");
-                return View(cargosService.ListarCargos(ID_AREA));
+                return View(cargosService.ListarCargos(AreaID));
             }
             catch (Exception e)
             {
                 return View("_Erro", e);
-            }   
+            }
+        }
+        [HttpGet]
+        public IActionResult AlterarCargo(int id)
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    throw new ArgumentException($"O valor informado na URL ({id}) é inválido");
+                }
+
+                Cargo? cargo = cargosService.Buscar(id);
+                if (cargo == null)
+                {
+                    throw new ArgumentException($"Nenhum objeto com este id: ({id})");
+                }
+                return View(cargo);
+            }
+            catch (Exception e)
+            {
+
+                return View("_Erro", e);
+            }
         }
 
+        [HttpPost]
+        public IActionResult AlterarCargo(Cargo cargo)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return View();
+                }
+                cargosService.Alterar(cargo);
+                return RedirectToAction("ListarCargos");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        [HttpGet]
+        public IActionResult RemoverCargo(int id)
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    throw new ArgumentException($"O valor informado na URL ({id}) é inválido");
+                }
+
+                Cargo? cargo = cargosService.Buscar(id);
+                if (cargo == null)
+                {
+                    throw new NullReferenceException($"Nenhum objeto com este id: ({id})");
+                }
+                return View(cargo);
+            }
+            catch (Exception e)
+            {
+                return View("_Erro", e);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult RemoverCargo(Cargo cargo)
+        {
+            try
+            {
+                cargosService.Remover(cargo);
+                return RedirectToAction("ListarCargos");
+            }
+            catch (Exception e)
+            {
+                return View("_Erro", e);
+            }
+        }
     }
 }

@@ -8,7 +8,7 @@ namespace ProjetoMyTE.WebApp.Services
     {
         public GenericDao<Area> AreasDao { get; set; }
 
-        public AreasService(MyRhContext context)
+        public AreasService(MyTEContext context)
         {
             this.AreasDao = new GenericDao<Area>(context);
         }
