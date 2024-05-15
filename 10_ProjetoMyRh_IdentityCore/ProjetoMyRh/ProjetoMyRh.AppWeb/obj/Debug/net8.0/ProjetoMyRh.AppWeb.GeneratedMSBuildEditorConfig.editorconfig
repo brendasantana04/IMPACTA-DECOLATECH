@@ -38,6 +38,34 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNBdHVhY2FvXExpc3RhckFyZWFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/AreasAtuacao/RemoverArea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYXNBdHVhY2FvXFJlbW92ZXJBcmVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Autenticacao/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZW50aWNhY2FvXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Autenticacao/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZW50aWNhY2FvXFJlZ2lzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Cargos/AdicionarCargo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXEFkaWNpb25hckNhcmdvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Cargos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Cargos/ListarCargos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXExpc3RhckNhcmdvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Cargos/ListarCargosDTO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXExpc3RhckNhcmdvc0RUTy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Shared/_Erro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcnJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/10_ProjetoMyRh_IdentityCore/ProjetoMyRh/ProjetoMyRh.AppWeb/Views/Shared/_ValidationScriptsPartial.cshtml]

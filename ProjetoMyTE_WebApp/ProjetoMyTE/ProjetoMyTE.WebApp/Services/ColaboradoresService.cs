@@ -6,40 +6,37 @@ namespace ProjetoMyTE.WebApp.Services
 {
     public class ColaboradoresService
     {
-        GenericDao<Colaborador> ColaboradoresDao { get; set; }
+        public GenericDao<Colaborador> CalaboradoresDao { get; set; }
 
-        //controller do cargos
         public ColaboradoresService(MyTEContext context)
         {
-            this.ColaboradorDao = new GenericDao<Colaborador>(context);
+            this.CalaboradoresDao = new GenericDao<Colaborador>(context);
         }
 
         public void Adicionar(Colaborador colaborador)
         {
-            CargosDao.Adicionar(cargo);
+            CalaboradoresDao.Adicionar(colaborador);
         }
 
-        public IEnumerable<Cargo> ListarCargos(int idArea)
+        public IEnumerable<Colaborador> ListarColaboradores()
         {
-            if (idArea > 0)
-            {
-                return CargosDao.Listar().Where(c => c.AreaId == idArea);
-            }
-            return CargosDao.Listar();
-        }
-        public Cargo? Buscar(int id)
-        {
-            return CargosDao.Buscar(id);
+            return CalaboradoresDao.Listar();
         }
 
-        public void Alterar(Cargo cargo)
+        public Colaborador? Buscar(int id)
         {
-            CargosDao.Alterar(cargo);
+            return CalaboradoresDao.Buscar(id);
         }
 
-        public void Remover(Cargo cargo)
+        public void Alterar(Colaborador colaborador)
         {
-            CargosDao.Remover(cargo);
+            CalaboradoresDao.Alterar(colaborador);
         }
+
+        public void Remover(Colaborador colaborador)
+        {
+            CalaboradoresDao.Remover(colaborador);
+        }
+
     }
 }

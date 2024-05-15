@@ -115,7 +115,7 @@ namespace ProjetoMyTE.WebApp.Controllers
             }
         }
         [HttpPost]
-        public IActionResult RemoverWBS(Area area)
+        public IActionResult RemoverArea(Area area)
         {
             try
             {

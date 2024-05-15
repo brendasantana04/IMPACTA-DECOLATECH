@@ -19,6 +19,8 @@ internal class Program
         builder.Services.AddScoped<AreasService>();
         builder.Services.AddScoped<CargosService>();
         builder.Services.AddScoped<WBSService>();
+        builder.Services.AddScoped<ColaboradoresService>();
+        builder.Services.AddScoped<RegistroHorasService>();
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();

@@ -1,0 +1,15 @@
+﻿@model ProjetoMyTE.WebApp.Models.Entities.Colaborador
+
+@{
+    ViewData["Title"] = "RemoverColaborador";
+}
+
+<h1>Remover Colaborador</h1>
+
+<h3>Você tem certeza que deseja remover esse colaborador?</h3>
+<div>
+    <form asp-action="RemoverColaborador">
+        <input type="submit" value="Sim, remover colaborador" class="btn btn-danger" /> |
+        <a asp-action="ListarColaboradores">Voltar para a Lista</a>
+    </form>
+</div>

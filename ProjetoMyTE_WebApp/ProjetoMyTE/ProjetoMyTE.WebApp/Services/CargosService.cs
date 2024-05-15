@@ -23,10 +23,11 @@ namespace ProjetoMyTE.WebApp.Services
         {
             if (idArea > 0)
             {
-                return CargosDao.Listar().Where(c => c.AreaId == idArea);
+                return CargosDao.Listar().Where(c => c.AreaId == idArea).ToList();
             }
             return CargosDao.Listar();
         }
+
         public Cargo? Buscar(int id)
         {
             return CargosDao.Buscar(id);

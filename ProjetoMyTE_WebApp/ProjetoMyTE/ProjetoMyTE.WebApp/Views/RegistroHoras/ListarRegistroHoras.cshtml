@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ProjetoMyTE.WebApp.Models.Entities.RegistroHoras>
+
+@{
+    ViewData["Title"] = "Listar RegistroHoras";
+}
+
+<h1>Listar RegistroHoras</h1>
+
+<p>
+    <a asp-action="AdicionarRegistroHoras">Adicionar Registro de Horas</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QtdHoras)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ColaboradorId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WBSId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QtdHoras)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ColaboradorId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WBSId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

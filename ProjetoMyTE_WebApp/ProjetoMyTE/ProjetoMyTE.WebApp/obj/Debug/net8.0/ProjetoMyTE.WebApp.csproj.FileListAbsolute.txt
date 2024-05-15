@@ -271,4 +271,4 @@ C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\ProjetoMyTE_WebApp\Proje
 C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\ProjetoMyTE_WebApp\ProjetoMyTE\ProjetoMyTE.WebApp\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\ProjetoMyTE_WebApp\ProjetoMyTE\ProjetoMyTE.WebApp\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\ProjetoMyTE_WebApp\ProjetoMyTE\ProjetoMyTE.WebApp\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\ProjetoMyTE_WebApp\ProjetoMyTE\ProjetoMyTE.WebApp\obj\Debug\net8.0\ProjetoMyTE.WebApp.csproj.CopyComplete
+C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\ProjetoMyTE_WebApp\ProjetoMyTE\ProjetoMyTE.WebApp\obj\Debug\net8.0\ProjetoM.DE11BB81.Up2Date

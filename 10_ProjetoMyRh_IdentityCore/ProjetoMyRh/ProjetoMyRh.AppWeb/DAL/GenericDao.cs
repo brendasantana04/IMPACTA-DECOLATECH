@@ -40,6 +40,7 @@ namespace ProjetoMyRh.AppWeb.DAL
         public void Remover(T item)
         {
             Context.Entry<T>(item).State = EntityState.Deleted;
+            Context.SaveChanges();
         }
     }
 }

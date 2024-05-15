@@ -66,12 +66,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZ29zXFJlbW92ZXJDYXJnby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Colaboradores/AdicionarColaborador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xBZGljaW9uYXJDb2xhYm9yYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Colaboradores/AlterarColaborares.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xBbHRlcmFyQ29sYWJvcmFyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Colaboradores/ListarColaboradores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xMaXN0YXJDb2xhYm9yYWRvcmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Colaboradores/RemoverColaborador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sYWJvcmFkb3Jlc1xSZW1vdmVyQ29sYWJvcmFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/RegistroHoras/AdicionarRegistroHoras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9Ib3Jhc1xBZGljaW9uYXJSZWdpc3Ryb0hvcmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/RegistroHoras/ListarRegistroHoras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9Ib3Jhc1xMaXN0YXJSZWdpc3Ryb0hvcmFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/b.santana.santos/Documents/Projetos/DecolaTech/ProjetoMyTE_WebApp/ProjetoMyTE/ProjetoMyTE.WebApp/Views/Shared/Error.cshtml]

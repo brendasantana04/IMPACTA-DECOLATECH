@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjetoMyRh.AppWeb.Models.Entities;
+using ProjetoMyRh.AppWeb.Models.DTO;
 
 namespace ProjetoMyRh.AppWeb.Models.Contexts
 {
@@ -8,7 +9,7 @@ namespace ProjetoMyRh.AppWeb.Models.Contexts
         //construtor
         public MyRhContext(DbContextOptions<MyRhContext> options) : base(options) { }
 
-        public DbSet<Area> MyProperty { get; set; }
+        public DbSet<Area> Areas { get; set; }
         public DbSet<Cargo> Cargos { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -37,5 +38,8 @@ namespace ProjetoMyRh.AppWeb.Models.Contexts
                 .Property(p => p.TipoSalario)
                 .HasColumnName("TP_SALARIO");
         }
+        public DbSet<ProjetoMyRh.AppWeb.Models.DTO.CargoDTO> CargoDTO { get; set; } = default!;
+        public DbSet<ProjetoMyRh.AppWeb.Models.Entities.UsuarioViewModel> UsuarioViewModel { get; set; } = default!;
+        public DbSet<ProjetoMyRh.AppWeb.Models.Entities.LogonViewModel> LogonViewModel { get; set; } = default!;
     }
 }
