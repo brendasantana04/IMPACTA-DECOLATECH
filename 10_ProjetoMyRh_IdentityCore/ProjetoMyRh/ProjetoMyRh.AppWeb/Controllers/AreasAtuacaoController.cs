@@ -17,12 +17,14 @@ namespace ProjetoMyRh.AppWeb.Controllers
         {
             return View();
         }
+        [Route("areas")]
         public IActionResult ListarAreas()
         {
             var lista = areasService.Listar();
             return View(lista);
         }
         [HttpGet]
+        [Route("addarea")]
         [Authorize]
         public IActionResult IncluirArea()
         {
@@ -48,6 +50,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
 
         //action para alterar a descricao de uma area
         [HttpGet]
+        [Route("modifyarea/{id?}")]
         public IActionResult AlterarArea(int id) 
         {
             try
@@ -90,7 +93,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
 
         }
         //action para excluir uma area
-        [HttpGet]
+        [HttpGet("areas/remove/{id?}")]
         public IActionResult RemoverArea(int id)
         {
             try

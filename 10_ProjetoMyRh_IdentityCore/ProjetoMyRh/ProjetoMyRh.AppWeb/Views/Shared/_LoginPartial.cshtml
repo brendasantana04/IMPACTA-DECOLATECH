@@ -1,4 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
+@using ProjetoMyRh.AppWeb.Models.Common
 @inject UserManager<IdentityUser> UserManager
 @inject SignInManager<IdentityUser> SignInManager
 
@@ -6,7 +7,7 @@
 {
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link text-dark" asp-controller="Autenticacao" asp-action="Home">Hello, @User.Identity!.Name</a>
+            <a class="nav-link text-dark" asp-controller="Autenticacao" asp-action="Home">Hello, @Utils.UsuarioLogado!.NomeFuncionario</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-dark" asp-controller="Autenticacao" asp-action="Logout">Logout</a>

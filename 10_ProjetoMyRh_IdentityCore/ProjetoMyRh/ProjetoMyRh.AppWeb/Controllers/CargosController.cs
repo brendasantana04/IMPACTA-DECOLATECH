@@ -69,7 +69,7 @@ namespace ProjetoMyRh.AppWeb.Controllers
         {
             try
             {
-                ViewBag.ListaDeAreas = new SelectList(areasService.Listar(), "Id", "Descricao");
+                ViewBag.ListaDeAreas = new SelectList(areasService.ListarAreasDTO(), "Id", "Descricao");
 
                 return View(cargosService.ListarCargosLINQ(idArea));
             }
