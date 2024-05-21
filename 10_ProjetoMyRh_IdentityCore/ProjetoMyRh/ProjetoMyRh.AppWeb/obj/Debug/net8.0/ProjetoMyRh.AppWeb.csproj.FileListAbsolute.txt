@@ -529,4 +529,4 @@ C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\10_ProjetoMyRh_IdentityC
 C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\10_ProjetoMyRh_IdentityCore\ProjetoMyRh\ProjetoMyRh.AppWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\10_ProjetoMyRh_IdentityCore\ProjetoMyRh\ProjetoMyRh.AppWeb\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\10_ProjetoMyRh_IdentityCore\ProjetoMyRh\ProjetoMyRh.AppWeb\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\10_ProjetoMyRh_IdentityCore\ProjetoMyRh\ProjetoMyRh.AppWeb\obj\Debug\net8.0\ProjetoMyRh.AppWeb.csproj.CopyComplete
+C:\Users\b.santana.santos\Documents\Projetos\DecolaTech\10_ProjetoMyRh_IdentityCore\ProjetoMyRh\ProjetoMyRh.AppWeb\obj\Debug\net8.0\ProjetoM.9ACEA5EC.Up2Date

@@ -1,0 +1,6 @@
+@Conceitos.WebApi_HostAddress = http://localhost:5189
+
+GET {{Conceitos.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
