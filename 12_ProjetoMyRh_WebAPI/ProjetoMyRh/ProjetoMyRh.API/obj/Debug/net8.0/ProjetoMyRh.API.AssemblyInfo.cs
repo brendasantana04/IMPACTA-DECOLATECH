@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoMyRh.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+085cadfc1808bf68d013aff8342e425288f2424d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f17822da4d4c2441a35e07c86cb9525664b62d96")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoMyRh.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoMyRh.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

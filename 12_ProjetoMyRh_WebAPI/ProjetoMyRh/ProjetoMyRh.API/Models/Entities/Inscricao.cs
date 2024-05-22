@@ -10,5 +10,6 @@
         public DateTime DataEfetivacao { get; set; }
         public Cargo? Cargo { get; set; }
         public Candidato? Candidato { get; set; }
+        public double Salario { get; internal set; }
     }
 }

@@ -13,6 +13,7 @@ builder.Services.AddDbContext<MyRhContext>(options =>
 
 builder.Services.AddScoped<AreasService>();
 builder.Services.AddScoped<CandidatosService>();
+builder.Services.AddScoped<InscricoesService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
